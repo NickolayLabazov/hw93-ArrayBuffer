@@ -1,0 +1,37 @@
+{
+  "name": "hw93-arraybuffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-jest": "^24.1.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint": "^5.14.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0",
+    "webpack-cli": "^3.2.3",
+    "webpack": "^4.29.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickolayLabazov/hw93-ArrayBuffer.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Nickolay Labazov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickolayLabazov/hw93-ArrayBuffer/issues"
+  },
+  "homepage": "https://github.com/NickolayLabazov/hw93-ArrayBuffer#readme"
+}
